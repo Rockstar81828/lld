@@ -1,0 +1,48 @@
+.comment-container {
+    /* border: 1px solid; */
+    padding: 0.5rem;
+    /* width: 80%; */
+    min-height: 80px;
+    margin: 0.5rem;
+    margin-right: 0;
+    padding-right: 0;
+    position: relative;
+}
+
+.parent-comment-container {
+    border: 1px solid;
+}
+
+.user-name-container {
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 0.2rem;
+}
+
+.user-name-container input {
+    margin: 0.5rem;
+}
+
+.button-container {
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem;
+}
+
+.button-container button {
+    margin: 0.2rem;
+    font-size: 8px;
+    padding: 2px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.child-comment {
+    margin-left: 1rem;
+}
+
+.message-container textarea {
+    width: 80%;
+    margin: 0.5rem;
+}
