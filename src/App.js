@@ -16,6 +16,7 @@ import FileExplorer from "./components/FileExplorer/FileExplorer";
 import TaskHome from "./components/TodoNewVersion/TaskHome";
 import Task from "./components/TodoNewVersion/Task";
 import Comments from "./components/comments/Comments";
+import Stepper from "./components/stepper/Stepper";
 
 const App = () => {
   return (
@@ -54,6 +55,9 @@ const App = () => {
                     </div>
                     <div>
                       <Link to="/comments">Nested Comments</Link>
+                    </div>
+                    <div>
+                      <Link to="/stepper">Stepper</Link>
                     </div>
                   </div>
                 }
@@ -169,6 +173,14 @@ const App = () => {
                 element={
                   <div>
                     <Comments />
+                  </div>
+                }
+              />
+              <Route
+                path="stepper"
+                element={
+                  <div>
+                    <Stepper />
                   </div>
                 }
               />

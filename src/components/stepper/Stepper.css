@@ -1,0 +1,72 @@
+.stepper-root {
+    height: 100vh;
+    position: relative;
+}
+
+.step-main {
+    display: flex;
+    justify-content: center;
+    height: 25%;
+}
+.stepper-container {
+    width: 75%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.stepper-line {
+    display: flex;
+    justify-content: center;
+    height: 5px;
+    width: 100%;
+    background: green;
+    position: absolute;
+}
+
+.steps {
+    /* position: absolute; */
+    width: 100%;
+}
+
+.steps .step {
+    height: 40px;
+    display: inline-block;
+    width: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    background: grey;
+    border: none;
+    position: absolute;
+    top: 1rem;
+    cursor: pointer;
+}
+
+.step-name {
+    position: relative;
+    top: 50px;
+}
+
+.stepper-button-container {
+    width: 100%;
+    position: absolute;
+    margin: 0 20px;
+}
+
+.stepper-button-container button {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    font-size: 0.5rem;
+}
+
+.stepper-button-container .next {
+    position: absolute;
+    right: 5%;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+}
