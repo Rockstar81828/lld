@@ -17,6 +17,7 @@ import TaskHome from "./components/TodoNewVersion/TaskHome";
 import Task from "./components/TodoNewVersion/Task";
 import Comments from "./components/comments/Comments";
 import Stepper from "./components/stepper/Stepper";
+import Snackbar from "./components/snackbar/Snackbar";
 
 const App = () => {
   return (
@@ -58,6 +59,9 @@ const App = () => {
                     </div>
                     <div>
                       <Link to="/stepper">Stepper</Link>
+                    </div>
+                    <div>
+                      <Link to="/snackbar">Snackbar</Link>
                     </div>
                   </div>
                 }
@@ -181,6 +185,14 @@ const App = () => {
                 element={
                   <div>
                     <Stepper />
+                  </div>
+                }
+              />
+              <Route
+                path="snackbar"
+                element={
+                  <div>
+                    <Snackbar />
                   </div>
                 }
               />
