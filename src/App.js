@@ -19,6 +19,7 @@ import Comments from "./components/comments/Comments";
 import Stepper from "./components/stepper/Stepper";
 import Snackbar from "./components/snackbar/Snackbar";
 import FileTree from "./components/fileTree/FileTree";
+import Tictactoe from "./components/tictactoe/Tictactoe";
 
 const App = () => {
   return (
@@ -66,6 +67,9 @@ const App = () => {
                     </div>
                     <div>
                       <Link to="/file-tree">File Tree</Link>
+                    </div>
+                    <div>
+                      <Link to="/tictactoe">Tic Tac Toe</Link>
                     </div>
                   </div>
                 }
@@ -205,6 +209,14 @@ const App = () => {
                 element={
                   <div>
                     <FileTree />
+                  </div>
+                }
+              />
+              <Route
+                path="tictactoe"
+                element={
+                  <div>
+                    <Tictactoe />
                   </div>
                 }
               />
