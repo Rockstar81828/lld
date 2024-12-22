@@ -20,6 +20,7 @@ import Stepper from "./components/stepper/Stepper";
 import Snackbar from "./components/snackbar/Snackbar";
 import FileTree from "./components/fileTree/FileTree";
 import Tictactoe from "./components/tictactoe/Tictactoe";
+import Circles from "./components/Circles/Circles";
 
 const App = () => {
   return (
@@ -70,6 +71,9 @@ const App = () => {
                     </div>
                     <div>
                       <Link to="/tictactoe">Tic Tac Toe</Link>
+                    </div>
+                    <div>
+                      <Link to="circles">Circles</Link>
                     </div>
                   </div>
                 }
@@ -217,6 +221,14 @@ const App = () => {
                 element={
                   <div>
                     <Tictactoe />
+                  </div>
+                }
+              />
+              <Route
+                path="circles"
+                element={
+                  <div>
+                    <Circles />
                   </div>
                 }
               />

@@ -1,0 +1,21 @@
+.circles-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.left-circle,
+.right-circle {
+    position: absolute;
+    border: 2px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.left-circle {
+    border-color: pink;
+}
+
+.right-circle {
+    border-color: gold;
+}
