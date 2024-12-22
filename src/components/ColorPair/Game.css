@@ -1,0 +1,19 @@
+.game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cfcfcf;
+    height: 100vh;
+}
+
+.box-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    gap: 2px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: none;
+}
