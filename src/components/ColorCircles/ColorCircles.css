@@ -1,0 +1,28 @@
+.color-circles-container {
+    height: 100vh;
+    width: 100vw;
+}
+
+.color-circles-container .circle {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border: none;
+    border-radius: 50%;
+}
+
+.color-btns {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color-btns button {
+    height: 35px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #c4c4c4;
+    width: 100px;
+    margin: 5px;
+    border: none;
+}

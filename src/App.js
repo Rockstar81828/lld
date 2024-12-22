@@ -22,6 +22,7 @@ import FileTree from "./components/fileTree/FileTree";
 import Tictactoe from "./components/tictactoe/Tictactoe";
 import Circles from "./components/Circles/Circles";
 import ColorPair from "./components/ColorPair/ColorPair";
+import ColorCircles from "./components/ColorCircles/ColorCircles";
 
 const App = () => {
   return (
@@ -78,6 +79,9 @@ const App = () => {
                     </div>
                     <div>
                       <Link to="color-pair">ColorPair</Link>
+                    </div>
+                    <div>
+                      <Link to="color-circles">Color Circles</Link>
                     </div>
                   </div>
                 }
@@ -241,6 +245,14 @@ const App = () => {
                 element={
                   <div>
                     <ColorPair />
+                  </div>
+                }
+              />
+              <Route
+                path="/color-circles"
+                element={
+                  <div>
+                    <ColorCircles />
                   </div>
                 }
               />
