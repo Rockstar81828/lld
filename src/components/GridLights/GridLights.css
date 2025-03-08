@@ -1,0 +1,37 @@
+.grid-main {
+    position: relative;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 500px;
+}
+
+.grid-main .sqaure {
+    height: 80px;
+    width: 80px;
+    border: 1px solid;
+    margin: 0.5rem;
+}
+
+.grid-main .sqaure:hover {
+    cursor: pointer;
+}
+
+.grid-main .sqaure.disabled:hover {
+    cursor: no-drop
+}
+
+.grid-main .sqaure.clicked {
+    background: lightgreen;
+    border: none;
+}
+
+.grid-main .range-container {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}

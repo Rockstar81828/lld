@@ -23,6 +23,7 @@ import Tictactoe from "./components/tictactoe/Tictactoe";
 import Circles from "./components/Circles/Circles";
 import ColorPair from "./components/ColorPair/ColorPair";
 import ColorCircles from "./components/ColorCircles/ColorCircles";
+import GridLights from "./components/GridLights/GridLights";
 
 const App = () => {
   return (
@@ -82,6 +83,9 @@ const App = () => {
                     </div>
                     <div>
                       <Link to="color-circles">Color Circles</Link>
+                    </div>
+                    <div>
+                      <Link to="grid-lights">Grid Lights</Link>
                     </div>
                   </div>
                 }
@@ -253,6 +257,14 @@ const App = () => {
                 element={
                   <div>
                     <ColorCircles />
+                  </div>
+                }
+              />
+              <Route
+                path="/grid-lights"
+                element={
+                  <div>
+                    <GridLights />
                   </div>
                 }
               />
