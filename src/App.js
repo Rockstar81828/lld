@@ -24,6 +24,7 @@ import Circles from "./components/Circles/Circles";
 import ColorPair from "./components/ColorPair/ColorPair";
 import ColorCircles from "./components/ColorCircles/ColorCircles";
 import GridLights from "./components/GridLights/GridLights";
+import Checkboxes from "./components/Checkbox/Checkboxes";
 
 const App = () => {
   return (
@@ -86,6 +87,9 @@ const App = () => {
                     </div>
                     <div>
                       <Link to="grid-lights">Grid Lights</Link>
+                    </div>
+                    <div>
+                      <Link to="checkbox">Checkbox</Link>
                     </div>
                   </div>
                 }
@@ -265,6 +269,14 @@ const App = () => {
                 element={
                   <div>
                     <GridLights />
+                  </div>
+                }
+              />
+              <Route
+                path="/checkbox"
+                element={
+                  <div>
+                    <Checkboxes />
                   </div>
                 }
               />
